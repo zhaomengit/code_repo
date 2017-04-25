@@ -6,6 +6,7 @@ import (
     "time"
 )
 
+// 自定义Listener,增加停止channel和设置超时时间
 // stoppableListener sets TCP keep-alive timeouts on accepted
 // connections and waits on stopc message
 type stoppableListener struct {
